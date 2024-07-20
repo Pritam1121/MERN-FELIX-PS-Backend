@@ -60,6 +60,6 @@ app.get('/movies',(req,resp)=>{
 })
 
 
-app.listen(port,hostname,()=>{
+app.listen(port,()=>{
      console.log(`server is listining http://${hostname}:${port}`)
 })
